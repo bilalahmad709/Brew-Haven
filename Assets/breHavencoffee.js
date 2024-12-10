@@ -85,6 +85,31 @@ secIconp.appendChild(secIconptext);
 
 document.getElementById("iconDiv2text").appendChild(secIconp);
 
+// second icon div
+//creating h6
+let thirdIconh6 = document.createElement("h6");
+thirdIconh6.style.color = "white";
+let thirdIconh6text = document.createTextNode("Relax & Enjoy Every Sip");
+
+//combining both
+thirdIconh6.appendChild(thirdIconh6text);
+document.getElementById("iconDiv3text").appendChild(thirdIconh6);
+
+//creating p tag
+
+let thirdIconp = document.createElement("p");
+thirdIconp.style.color = "white";
+thirdIconp.style.fontSize= "10px";
+
+// text for p tag
+let thirdIconptext = document.createTextNode("Take a moment for yourself with a perfectly balanced brew that soothes and satisfies.");
+
+// combining both p tag and its text
+thirdIconp.appendChild(thirdIconptext);
+document.getElementById("iconDiv3text").appendChild(thirdIconp);
+
+
+
 
 
 
