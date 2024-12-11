@@ -3,7 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 90vh;
+    height: auto;
 }
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -34,7 +34,7 @@
 .reviewDiv{
     min-width: 140px;
     max-width: 160px;
-    max-height: 70px;
+    max-height: 80px;
     z-index: 2;
 }
 .reviewP{
@@ -42,21 +42,65 @@
 }
 .grayDiv{
     background-color: rgb(158, 155, 155);
-    min-width: 250px;
-    max-width: 300px;
+    min-width: 300px;
+    max-width: 350px;
     min-height: 300px;
     margin-left: -100px;
     margin-top: 5px;
     z-index: 1;
-    clip-path: polygon(19% 0, 100% 0, 83% 42%, 0 43%);
-    border-radius: 20px;
+    clip-path: polygon(30% 0, 100% 0, 80% 40%, 0 40%);
+    
 }
 .arabicaDiv{
-    clip-path: polygon(6% 0, 100% 0%, 65% 39%, 0 41%);
-    border-radius:5px;
+    clip-path: polygon(6% 0, 80% 0%, 65% 43%, 0 44%);
+    border-radius:10px;
     margin-left: -60px;
     margin-top: 30px;
-    min-width: 250px;
-    max-width: 300px;
+    min-width: 300px;
     max-height: 200px;
+}
+@media screen and (max-width:595px){
+    .grayDiv{
+        min-width: 200px;
+        max-width: 350px;
+        min-height: 250px;
+    }
+    .arabicaDiv{
+        
+        min-width: 220px;
+        max-height: 230px;
+    }
+}
+@media screen and (max-width:425px){
+    .reviewDiv{
+        min-width: 100px;
+        max-width: 100px;
+        font-size: 10px;
+        max-height: 85px;
+        z-index: 2;
+        margin-top: 34px;
+        margin-right: -20px;
+    }
+    .grayDiv{
+        min-width: 130px;
+        max-width: 140px;
+        min-height: 220px;
+        margin-top: 10px;
+        margin-left: -90px;
+    }
+    .arabicaDiv{
+        
+        min-width: 220px;
+        max-height: 230px;
+        font-size: 10px;
+        text-align:right;
+    
+    }
+}
+
+.secondContainer{
+background-color: #f3f3f3;
+}
+.coffeCard1{
+    max-height: 400px;
 }
