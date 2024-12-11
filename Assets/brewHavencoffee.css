@@ -3,7 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 80vh;
+    min-height: 90vh;
 }
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -11,4 +11,52 @@
 
 .orangeColor{
     background-color: rgb(255, 75, 50);
+}
+.childdiv{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(201, 197, 197);
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#div2{
+    margin-left: -15px;
+}
+#div3{
+    margin-left: -15px;
+}
+#div4{
+    margin-left: -15px;
+}
+#div5{
+    margin-left: -15px;
+}
+.reviewDiv{
+    min-width: 140px;
+    max-width: 160px;
+    max-height: 70px;
+    z-index: 2;
+}
+.reviewP{
+    font-size: 10px;
+}
+.grayDiv{
+    background-color: rgb(158, 155, 155);
+    min-width: 250px;
+    max-width: 300px;
+    min-height: 300px;
+    margin-left: -100px;
+    margin-top: 5px;
+    z-index: 1;
+    clip-path: polygon(19% 0, 100% 0, 83% 42%, 0 43%);
+    border-radius: 20px;
+}
+.arabicaDiv{
+    clip-path: polygon(6% 0, 100% 0%, 65% 39%, 0 41%);
+    border-radius:5px;
+    margin-left: -60px;
+    margin-top: 30px;
+    min-width: 250px;
+    max-width: 300px;
+    max-height: 200px;
 }
