@@ -736,10 +736,15 @@ background-color: #f3f3f3;
     }
 }
 
-
-
-
 .bestSellerCard{
     min-width: 250px;
     max-width: 300px;
+    box-shadow:1px 1px 10px rgb(181, 176, 176);
+}
+/* third container */
+.joinUsContainer{
+    margin-top: 200px;
+}
+.joinUsrow{
+    background-color: rgba(170, 169, 169, 0.826);
 }
