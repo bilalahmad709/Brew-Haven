@@ -115,636 +115,160 @@ background-color: #f3f3f3;
 }
 
 /* slider css start*/
-.leftArrow{
-    margin-left: 1000%;
-    margin-bottom: 300%;
+.firstTextDiv{
+    position: relative; 
+    width: 100%; 
+    padding: 20px;
 }
-.rightArrow{
-    margin-bottom: 298%;
-    margin-right: 60%;
+
+.carousel-control-prev1{
+    position: absolute; 
+    top: -8%; 
+    margin-left: 75%;
+    transform: translateY(-50%);
+    border: none;
 }
-/* line indicator */
-.carousel-indicators{
+  
+  .carousel-control-next1{
+    position: absolute; 
+    top: -8%; 
+    margin-left: 85%;
+    transform: translateY(-50%);
+    border: none;
+  }
+@media screen and (max-width:768px) {
+    .carousel-control-prev1{
+        position: absolute; 
+        top: 105%; 
+        margin-left: 34%;
+        transform: translateY(-50%);
+        border: none;
+        background-color: white;
+    }
+      
+      .carousel-control-next1{
+        position: absolute; 
+        top: 105%; 
+        margin-left: 58%;
+        transform: translateY(-50%);
+        border: none;
+        background-color: white;
+      }
+}
+  /* line indicators buttons */
+  .carousel-indicators {
     position: absolute;
-    bottom: -10%;
-}
-
-@media screen and (min-width:1730px) and (max-width: 1802px ) {
-    .leftArrow{
-        margin-left: 1000%;
-        margin-bottom: 310%;
-    }
-    .rightArrow{
-        margin-bottom: 310%;
-        margin-right: 60%;
-    }
-}
-
-@media screen and (min-width:1646px) and (max-width: 1729px ) {
-    .leftArrow{
-        margin-left: 1000%;
-        margin-bottom: 330%;
-    }
-    .rightArrow{
-        margin-bottom: 330%;
-        margin-right: 60%;
-    }
-}
-
-@media screen and (min-width:1500px) and (max-width: 1645px ) {
-    .leftArrow{
-        margin-left: 1000%;
-        margin-bottom: 365%;
-    }
-    .rightArrow{
-        margin-bottom: 365%;
-        margin-right: 60%;
-    }
-}
-
-@media screen and (min-width:1400px) and (max-width: 1499px ) {
-    .leftArrow{
-        margin-left: 1000%;
-        margin-bottom: 385%;
-    }
-    .rightArrow{
-        margin-bottom: 385%;
-        margin-right: 60%;
-    }
-}
-
-@media screen and (min-width:1300px) and (max-width: 1399px ) {
-    .leftArrow{
-        margin-left: 1000%;
-        margin-bottom: 415%;
-    }
-    .rightArrow{
-        margin-bottom: 415%;
-        margin-right: 60%;
-    }
-}
-
-@media screen and (min-width:1200px) and (max-width: 1299px ) {
-    .leftArrow{
-        margin-left: 1000%;
-        margin-bottom: 455%;
-    }
-    .rightArrow{
-        margin-bottom: 455%;
-        margin-right: 60%;
-    }
-}
-
-@media screen and (min-width:1100px) and (max-width: 1199px ) {
-    .leftArrow{
-        margin-left: 1000%;
-        margin-bottom: 495%;
-    }
-    .rightArrow{
-        margin-bottom: 495%;
-        margin-right: 60%;
-    }
-}
-
-@media screen and (min-width:1000px) and (max-width: 1099px ) {
-    .leftArrow{
-        margin-left: 1000%;
-        margin-bottom: 525%;
-    }
-    .rightArrow{
-        margin-bottom: 525%;
-        margin-right: 50%;
-    }
-}
-
-@media screen and (min-width:900px) and (max-width: 999px ) {
-    .leftArrow{
-        margin-left: 950%;
-        margin-bottom: 610%;
-    }
-    .rightArrow{
-        margin-bottom: 610%;
-        margin-right: 50%;
-    }
-}
-
-@media screen and (min-width:800px) and (max-width: 899px ) {
-    .leftArrow{
-        margin-left: 950%;
-        margin-bottom: 730%;
-    }
-    .rightArrow{
-        margin-bottom: 730%;
-        margin-right: 50%;
-    }
-}
-
-@media screen and (min-width:768px) and (max-width: 799px ) {
-    .leftArrow{
-        margin-left: 950%;
-        margin-bottom: 730%;
-    }
-    .rightArrow{
-        margin-bottom: 730%;
-        margin-right: 50%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -10%;
-    }
-}
-
-/* media querry for small screens */
-
-@media screen and (min-width:750px) and (max-width:767px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 2400%;
-    }
-    .rightArrow{
-        margin-top: 2400%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:740px) and (max-width:749px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 2430%;
-    }
-    .rightArrow{
-        margin-top: 2430%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:730px) and (max-width:739px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 2470%;
-    }
-    .rightArrow{
-        margin-top: 2470%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:720px) and (max-width:729px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 2510%;
-    }
-    .rightArrow{
-        margin-top: 2510%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:710px) and (max-width:719px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 2540%;
-    }
-    .rightArrow{
-        margin-top: 2540%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:700px) and (max-width:709px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 2540%;
-    }
-    .rightArrow{
-        margin-top: 2540%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:690px) and (max-width:699px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 2570%;
-    }
-    .rightArrow{
-        margin-top: 2570%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:680px) and (max-width:689px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 2630%;
-    }
-    .rightArrow{
-        margin-top: 2630%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:660px) and (max-width:679px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 2660%;
-    }
-    .rightArrow{
-        margin-top: 2660%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:640px) and (max-width:659px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 2750%;
-    }
-    .rightArrow{
-        margin-top: 2750%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:620px) and (max-width:639px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 2830%;
-    }
-    .rightArrow{
-        margin-top: 2830%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:600px) and (max-width:619px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 2900%;
-    }
-    .rightArrow{
-        margin-top: 2900%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:580px) and (max-width:599px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 3000%;
-    }
-    .rightArrow{
-        margin-top: 3000%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:540px) and (max-width:579px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 3100%;
-    }
-    .rightArrow{
-        margin-top: 3100%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:520px) and (max-width:539px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 3300%;
-    }
-    .rightArrow{
-        margin-top: 3300%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:500px) and (max-width:519px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 3400%;
-    }
-    .rightArrow{
-        margin-top: 3400%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:480px) and (max-width:499px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 3510%;
-    }
-    .rightArrow{
-        margin-top: 3510%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:460px) and (max-width:479px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 3680%;
-    }
-    .rightArrow{
-        margin-top: 3680%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:440px) and (max-width:459px){
-    .leftArrow{
-        margin-left: 100%;
-        margin-top: 3830%;
-    }
-    .rightArrow{
-        margin-top: 3830%;
-        margin-right: 100%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:430px) and (max-width:439px){
-    .leftArrow{
-        margin-left: 300%;
-        margin-top: 4100%;
-    }
-    .rightArrow{
-        margin-top: 4100%;
-        margin-right: 300%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:420px) and (max-width:429px){
-    .leftArrow{
-        margin-left: 300%;
-        margin-top: 4200%;
-    }
-    .rightArrow{
-        margin-top: 4200%;
-        margin-right: 300%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:410px) and (max-width:419px){
-    .leftArrow{
-        margin-left: 300%;
-        margin-top: 4300%;
-    }
-    .rightArrow{
-        margin-top: 4300%;
-        margin-right: 300%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:400px) and (max-width:410px){
-    .leftArrow{
-        margin-left: 300%;
-        margin-top: 4400%;
-    }
-    .rightArrow{
-        margin-top: 4400%;
-        margin-right: 300%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:390px) and (max-width:400px){
-    .leftArrow{
-        margin-left: 300%;
-        margin-top: 4500%;
-    }
-    .rightArrow{
-        margin-top: 4500%;
-        margin-right: 300%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:380px) and (max-width:390px){
-    .leftArrow{
-        margin-left: 300%;
-        margin-top: 4600%;
-    }
-    .rightArrow{
-        margin-top: 4600%;
-        margin-right: 300%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:370px) and (max-width:380px){
-    .leftArrow{
-        margin-left: 300%;
-        margin-top: 4700%;
-    }
-    .rightArrow{
-        margin-top: 4700%;
-        margin-right: 300%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:360px) and (max-width:370px){
-    .leftArrow{
-        margin-left: 300%;
-        margin-top: 4800%;
-    }
-    .rightArrow{
-        margin-top: 4800%;
-        margin-right: 300%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:350px) and (max-width:360px){
-    .leftArrow{
-        margin-left: 300%;
-        margin-top: 4900%;
-    }
-    .rightArrow{
-        margin-top: 4900%;
-        margin-right: 300%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:340px) and (max-width:350px){
-    .leftArrow{
-        margin-left: 300%;
-        margin-top: 5000%;
-    }
-    .rightArrow{
-        margin-top: 5000%;
-        margin-right: 300%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:330px) and (max-width:340px){
-    .leftArrow{
-        margin-left: 300%;
-        margin-top: 5100%;
-    }
-    .rightArrow{
-        margin-top: 5100%;
-        margin-right: 300%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:320px) and (max-width:330px){
-    .leftArrow{
-        margin-left: 300%;
-        margin-top: 5400%;
-    }
-    .rightArrow{
-        margin-top: 5400%;
-        margin-right: 300%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
-@media screen and (min-width:310px) and (max-width:320px){
-    .leftArrow{
-        margin-left: 300%;
-        margin-top: 5600%;
-    }
-    .rightArrow{
-        margin-top: 5600%;
-        margin-right: 300%;
-    }
-    .carousel-indicators{
-        position: absolute;
-        bottom: -5%;
-    }
-}
-
+    bottom: -90px; 
+    left: 35%; 
+    transform: translateX(-50%); 
+    z-index: 10; 
+  }
+  
+  
+  
 .bestSellerCard{
     min-width: 250px;
     max-width: 300px;
     box-shadow:1px 1px 10px rgb(181, 176, 176);
 }
-/* third container */
+
+/* second slider css start */
+.secContCard{
+    min-width: 250px;
+    max-width: 300px;
+    box-shadow:1px 1px 10px rgb(181, 176, 176);
+}
+.secTextDiv{
+  position: relative; 
+  width: 100%; 
+  padding: 20px;
+}
+.carousel-control-prev{
+  position: absolute; 
+  top: -20%; 
+  margin-left: 70%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-next{
+  position: absolute; 
+  top: -20%; 
+  margin-right: 5%;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width:768px) {
+    .carousel-control-prev{
+        position: absolute; 
+        top: 108%; 
+        margin-left: 30%;
+        transform: translateY(-50%);
+        border: none;
+        background-color: white;
+    }
+      
+      .carousel-control-next{
+        position: absolute; 
+        top: 108%; 
+        margin-right: 30%;
+        transform: translateY(-50%);
+        border: none;
+        background-color: white;
+      }
+}
+/* second slider css end */
+
+/* third container css start */
+.thirdConTextDiv{
+    position: relative; 
+    width: 100%; 
+
+}
+.carousel-control-prev3{
+    position: absolute; 
+        top: 60%; 
+        margin-left:-45%;
+        transform: translateY(-50%);
+        border: none;
+        background-color: white;
+}
+.carousel-control-next3{
+    position: absolute; 
+    top: 60%; 
+    margin-left: -30%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: white;
+}
+
+@media screen and (max-width:768px) {
+    .carousel-control-prev3{
+        position: absolute; 
+        top: 108%; 
+        margin-left: 30%;
+        transform: translateY(-50%);
+        border: none;
+        background-color: white;
+    }
+      
+      .carousel-control-next3{
+        position: absolute; 
+        top: 108%; 
+        right: 30%;
+        z-index: 10;
+        transform: translateY(-50%);
+        border: none;
+        background-color: transparent;
+      }
+      
+}
+/* third container css end */
+
+
+/* join us container container */
 .joinUsContainer{
     margin-top: 200px;
-}
+} 
 .joinUsrow{
     background-color: rgba(170, 169, 169, 0.826);
 }

@@ -9,7 +9,7 @@ linksColor.forEach(link => {
 
 let linkMouseHover = document.querySelectorAll(".nav-link");
 
-// Loop through each element in the NodeList
+// making it bold on mouse enter
 linkMouseHover.forEach(link => {
   //mouseenter event listener
   link.addEventListener("mouseenter", () => {
